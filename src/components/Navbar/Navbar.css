@@ -1,0 +1,100 @@
+.navbar {
+    display: flex;    
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+ 
+  }
+  
+
+  .logo-container {
+    display: block;
+    float:left;
+    width: auto;
+    
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+    
+  }
+  
+  .menu-button {
+    display: none;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin-left: 20px;
+    align-items: center;
+  }
+  
+  .nav-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .menu-button {
+      display: block;
+    }
+  
+    .navbar-nav {
+      display: none;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      width: 100%;
+      background-color: #333;
+      padding: 10px;
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      margin-left: 0;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+  
+    .nav-link {
+      display: block;
+      font-size: 1.2rem;
+    }
+  
+    .navbar-nav.active {
+      display: flex;
+    }
+  }
+  .signup-btn{
+    background-color: transparent;
+    border:none;
+    color: #fff;
+    font-size: inherit;
+  }
+
+    .login-btn{
+    background-color: transparent;
+    border:none;
+    color: #fff;
+    font-size: inherit;
+  }
+  
